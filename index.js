@@ -43,6 +43,6 @@ app.get('/yelp/search', function (req, res) {
 //       console.log(response);
 
 
-app.listen(5000, function () {
+app.listen(process.env.PORT, function () {
 	console.log('example app listening on port ', app.get('port'))
 })
