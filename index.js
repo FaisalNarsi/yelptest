@@ -36,11 +36,11 @@ app.get('/yelp/search', function (req, res) {
 		});
 })
 
-$.ajax({
-      url: "https://api.yelp.com/v3/businesses/search" queryURL,
-      method: "GET"
-    }).done(function(response) {
-      console.log(response);
+// $.ajax({
+//       url: "https://api.yelp.com/v3/businesses/search" queryURL,
+//       method: "GET"
+//     }).done(function(response) {
+//       console.log(response);
 
 
 app.listen(5000, function () {
